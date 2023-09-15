@@ -114,7 +114,10 @@ const unirPost = ()=> {
 }
 
 
-btnPost.addEventListener("click",()=>crearPost())
+btnPost.addEventListener("click",()=>{
+    crearPost()
+    unirPost()
+})
 
 cantidadPost = 0
 
